@@ -1,0 +1,8 @@
+-i https://pypi.org/simple
+flask
+mlflow
+pandas
+scikit-learn
+sqlalchemy 
+pymysql
+python-dotenv

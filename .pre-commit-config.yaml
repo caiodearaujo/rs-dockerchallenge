@@ -1,0 +1,11 @@
+# pre-commit-config.yaml
+
+# Note: this file is managed by pre-commit
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.10.0 
+    hooks:
+      - id: black
+        name: black
+        language_version: python3.11
+        files: ^api/.*\.py$
