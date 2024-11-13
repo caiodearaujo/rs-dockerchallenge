@@ -31,7 +31,7 @@ The repository contains the following components:
 │   └── params.py                # Configuration parameters
 ├── README.md                    # This file
 └── requirements.txt             # Dependencies for running the project
-
+```
 
 ## How to Run the Project
 
@@ -39,7 +39,8 @@ To run the project, you will need Docker and Docker Compose installed on your ma
 
 1. Clone the repository
 ```
-git clone <repository-url> cd <repository-directory>
+git clone https://github.com/caiodearaujo/rs-dockerchallenge.git
+cd rs-dockerchallenge
 ```
 
 2. Build and start the containers
